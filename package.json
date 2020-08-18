@@ -1,28 +1,34 @@
 {
-  "name": "ltransfer",
-  "version": "1.0.0",
-  "description": "A file utility to help you transfer files over your local network.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/umaralam48/LTransfer.git"
-  },
-  "keywords": [
-    "file",
-    "transfer",
-    "formidable",
-    "sharing"
-  ],
-  "author": "Mohd Umar Alam",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/umaralam48/LTransfer/issues"
-  },
-  "homepage": "https://github.com/umaralam48/LTransfer#readme",
+  "name": "shareme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "formidable": "^1.2.2"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
